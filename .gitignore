@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Local environments and toolchains
+.venv/
+venv/
+tools/
+
+# Manim and render caches
+media/
+Tex/
+text/
+*.log
+
+# Local/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Keep the final rendered gallery, ignore scratch/prototype outputs.
+outputs/gifs/
+outputs/videos/
+outputs/stills/
+
